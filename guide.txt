@@ -1,0 +1,10 @@
+//bring ios and android folders to get full control
+npx expo prebuild
+
+//run the app
+npx expo run:ios|android
+
+//libraries installation
+npx expo install expo-dev-client
+npx expo install expo-asset
+npx expo install expo-av
